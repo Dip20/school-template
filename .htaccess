@@ -7,4 +7,3 @@ RewriteRule ^(.*)$ $1.html
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
-
