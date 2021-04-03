@@ -1,0 +1,69 @@
+.btn-c , .btn-c:focus
+{
+  background-color: #228190;
+  color: white;
+  border: none !important;
+  outline: none !important;
+}
+.btn-c:hover
+{
+  background-color: #228190 !important;
+  opacity: 0.8;
+}
+.btn-c-outline
+{
+  background-color: #ffff;
+  color: #228190;
+  border: 1px solid #228190 !important;
+  outline: none !important;
+}
+.btn-c-outline:hover
+{
+  background-color:  #228190 !important;
+  color:white;
+
+}
+
+input:focus , textarea:focus , option:focus , select:focus
+{
+  border: 1px solid #228190 !important;
+  border-color: #228190 !important;
+  /* outline: none  !important; */
+  /* box-shadow: 0px 0px 23px -2px rgba(247,37,133,0.75)  !important;
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(247,37,133,0.75)  !important;
+  -moz-box-shadow: 0px 0px 23px -2px rgba(247,37,133,0.75)  !important; */
+}
+/* smooth scrool */
+html
+{
+  scroll-behavior: smooth;
+}
+/* custom scrool bar */
+
+/* width */
+::-webkit-scrollbar
+{
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track
+{
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb
+ {
+  background: #E98074;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+{
+  background: #228190;
+}
+nav .active
+{
+  opacity: 0.7 !important;
+}

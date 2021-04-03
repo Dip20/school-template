@@ -1,0 +1,109 @@
+/* google font */
+/* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Kaushan+Script&display=swap');
+
+nav ul li
+{
+  padding: 0 10px;
+  text-transform: uppercase;
+  color: black !important;
+}
+.navbar-nav li a
+{
+  color:#fff !important;
+ font-weight: 400;
+ font-family: 'Nanum Gothic', sans-serif;
+ font-size: 14px!important;
+}
+
+.nav-item a:hover
+{
+  opacity: 0.8;
+}
+
+.navbar-toggler
+{
+  outline: none !important;
+}
+
+#nav-bar
+{
+  position: sticky;
+  top:0;
+  z-index: 100;
+}
+
+.fa-bars
+{
+  border:none!important;
+  outline: none!important;
+  color: #fff;
+}
+
+.bar
+{
+text-decoration-line: underline;
+text-decoration-color: #228190;
+text-decoration-style: solid;
+text-underline-offset: 10px;
+}
+
+.bg-c
+{
+  background-color: #228190;
+}
+
+.font-c
+{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3rem;
+}
+
+.fc
+{
+  color: #228190;
+}
+
+.brand
+{
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 35px;
+}
+
+.brand:hover
+{
+  color:white;
+  /* opacity: 0.8; */
+}
+
+.rotate
+{
+   transform: rotate(8deg);
+}
+
+.space
+{
+  height: 100vh;
+}
+.bg-custom
+{
+  /* background: rgb(247,37,133);
+  background: -webkit-linear-gradient(200deg, rgba(247,37,133,1) 35%, rgba(176,0,80,1) 100%);
+  background: -o-linear-gradient(200deg, rgba(247,37,133,1) 35%, rgba(176,0,80,1) 100%);
+  background: linear-gradient(290deg, rgba(247,37,133,1) 35%, rgba(176,0,80,1) 100%); */
+  background-color:#228190 ;
+}
+
+.radious
+{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.headline
+{
+  color:#228190;
+  font-weight: 400;
+  font-family: 'Advent Pro', sans-serif;
+}
