@@ -23,16 +23,14 @@
   color:white;
 
 }
-
-input:focus , textarea:focus , option:focus , select:focus
-{
-  border: 1px solid #228190 !important;
-  border-color: #228190 !important;
-  /* outline: none  !important; */
-  /* box-shadow: 0px 0px 23px -2px rgba(247,37,133,0.75)  !important;
-  -webkit-box-shadow: 0px 0px 23px -2px rgba(247,37,133,0.75)  !important;
-  -moz-box-shadow: 0px 0px 23px -2px rgba(247,37,133,0.75)  !important; */
+.form-control:focus {
+    color: #D94929 !important;
+    background-color: #fff !important;
+    border-color: #D94929 !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.2rem rgb(181 30 30 / 25%) !important;
 }
+
 /* smooth scrool */
 html
 {

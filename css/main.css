@@ -1,6 +1,14 @@
 /* google font */
-/* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Kaushan+Script&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,800&display=swap'); */
+
+body{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+
+}
 
 nav ul li
 {
@@ -10,10 +18,11 @@ nav ul li
 }
 .navbar-nav li a
 {
-  color:#fff !important;
- font-weight: 400;
- font-family: 'Nanum Gothic', sans-serif;
+ color:#000 !important;
+ font-weight: 200;
+ font-family: 'Roboto', sans-serif;
  font-size: 14px!important;
+
 }
 
 .nav-item a:hover
@@ -50,26 +59,26 @@ text-underline-offset: 10px;
 
 .bg-c
 {
-  background-color: #228190;
+  background-color: #F2CA80;
 }
 
 .font-c
 {
   font-family: 'Kaushan Script', cursive;
-  font-size: 3rem;
+  font-size: 40px !important;
 }
 
 .fc
 {
-  color: #228190;
+  color: #000;
 }
 
-.brand
+/* .brand
 {
   color: white;
   font-family: 'Kaushan Script', cursive;
   font-size: 35px;
-}
+} */
 
 .brand:hover
 {
@@ -77,10 +86,10 @@ text-underline-offset: 10px;
   /* opacity: 0.8; */
 }
 
-.rotate
+/* .rotate
 {
    transform: rotate(8deg);
-}
+} */
 
 .space
 {
@@ -92,7 +101,7 @@ text-underline-offset: 10px;
   background: -webkit-linear-gradient(200deg, rgba(247,37,133,1) 35%, rgba(176,0,80,1) 100%);
   background: -o-linear-gradient(200deg, rgba(247,37,133,1) 35%, rgba(176,0,80,1) 100%);
   background: linear-gradient(290deg, rgba(247,37,133,1) 35%, rgba(176,0,80,1) 100%); */
-  background-color:#228190 ;
+  background-color:#F2CA80 ;
 }
 
 .radious
@@ -101,9 +110,61 @@ text-underline-offset: 10px;
   border-top-right-radius: 20px;
 }
 
-.headline
+/* .headline
 {
   color:#228190;
   font-weight: 400;
   font-family: 'Advent Pro', sans-serif;
+} */
+
+/* theme css */
+
+.size-24
+{
+  font-size: 24px !important;
+}
+.size-22
+{
+  font-size: 22px !important;
+}
+.size-18
+{
+  font-size: 18px !important;
+}
+.font-bolder
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.font-lighter
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.btn-outline-light
+{
+  background-color: #D94929 !important;
+  outline: none !important;
+  border: none !important;
+  color: #fff !important;
+}
+.black{
+  color:#000;
+}
+.orange{
+  color:#D94929;
+}
+
+.icon-c
+{
+  color:#D94929 !important;
+}
+
+.about_p_height
+{
+  line-height: 31px;
+}
+footer a:hover
+{
+  color: #000 !important;
 }
