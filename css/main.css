@@ -16,13 +16,6 @@ a:visited{
   color:#fff;
 }
 
-/* nav ul li
-{
-
-  text-transform: uppercase;
-  color: black !important;
-
-} */
 .nav-item
 {
  padding: 0 10px;
@@ -86,23 +79,6 @@ text-underline-offset: 10px;
   color: #000;
 }
 
-/* .brand
-{
-  color: white;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 35px;
-} */
-
-.brand:hover
-{
-  color:white;
-  /* opacity: 0.8; */
-}
-
-/* .rotate
-{
-   transform: rotate(8deg);
-} */
 
 .space
 {
@@ -110,10 +86,6 @@ text-underline-offset: 10px;
 }
 .bg-custom
 {
-  /* background: rgb(247,37,133);
-  background: -webkit-linear-gradient(200deg, rgba(247,37,133,1) 35%, rgba(176,0,80,1) 100%);
-  background: -o-linear-gradient(200deg, rgba(247,37,133,1) 35%, rgba(176,0,80,1) 100%);
-  background: linear-gradient(290deg, rgba(247,37,133,1) 35%, rgba(176,0,80,1) 100%); */
   background-color:#F2CA80 ;
 }
 
@@ -122,15 +94,6 @@ text-underline-offset: 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-
-/* .headline
-{
-  color:#228190;
-  font-weight: 400;
-  font-family: 'Advent Pro', sans-serif;
-} */
-
-/* theme css */
 
 .size-24
 {
