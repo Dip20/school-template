@@ -45,7 +45,7 @@
                  <a class="nav-link" href="gallery">Gallery</a>
               </li>
               <li class="nav-item">
-                 <a class="nav-link" href="gallery">Fee Structure</a>
+                 <a class="nav-link" href="fees-structure">Fee Structure</a>
               </li>
            </ul>
            <div class="form-inline my-2 my-lg-0">
@@ -123,7 +123,7 @@
                            <a class="nav-link orange" href="index"><i class="fas fa-angle-double-right"></i> Home</a>
                            <a class="nav-link orange" href="about"><i class="fas fa-angle-double-right"></i> About</a>
                            <a class="nav-link orange" href="contact"><i class="fas fa-angle-double-right"></i> Contact</a>
-                           <!-- <a class="nav-link orange" href="events"><i class="fas fa-angle-double-right"></i> Events</a> -->
+                           <a class="nav-link orange" href="career"><i class="fas fa-angle-double-right"></i> Career</a>
                            <a class="nav-link orange" href="notice"><i class="fas fa-angle-double-right"></i> Notice Board</a>
                            <a class="nav-link orange" href="gallery"><i class="fas fa-angle-double-right"></i> Gallery</a>
                         </nav>
@@ -139,22 +139,7 @@
                      </div>
                      <div class="col-lg-2">
                         <h3 class="size-22 black"> Social Media</h3>
-                        <!-- <form  action="" method="post">
-                           <div class="input-group mb-3">
-                              <div class="input-group mb-3">
-                                 <div class="input-group-prepend ">
-                                    <label class="input-group-text" for="inputGroupSelect01">Currency</label>
-                                 </div>
-                                 <select class="custom-select" id="inputGroupSelect01">
-                                    <option selected value="INR">INR</option>
-                                    <option value="USD">$(USD)</option>
-                                 </select>
-                              </div>
-                              <input type="number" min="1" name="" value="" class="form-control" placeholder="Enter Amount" required>
-                              <br><br>
-                              <button type="submit" name="donate" class="btn btn-block btn-danger btn-md btn-c"> <i class="fas fa-donate"></i> Donate</button>
-                           </div>
-                           </form> -->
+
 
                         <nav class="nav mt-3">
                            <h4 class="px-3">  <a class="icon-c" href="#"><i class="fab fa-facebook-square"></i></a></h4>
