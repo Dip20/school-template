@@ -155,3 +155,12 @@ footer a:hover {
 	transition: 1.2s;
 	transition-delay: 0.2s;
 }
+
+/* notification page 2 side bar same height */
+#notification{
+	height: 100%;
+}
+
+#notification ol li {
+	line-height: 38px;
+}
