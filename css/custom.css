@@ -1,63 +1,70 @@
-.btn-c , .btn-c:focus
-{
-  background-color: #228190;
-  color: white;
-  border: none !important;
-  outline: none !important;
+.btn-c,
+.btn-c:focus {
+	background-color: #228190;
+	color: white;
+	border: none !important;
+	outline: none !important;
 }
-.btn-c:hover
-{
-  background-color: #228190 !important;
-  opacity: 0.8;
-}
-.btn-c-outline
-{
-  background-color: #ffff;
-  color: #228190;
-  border: 1px solid #228190 !important;
-  outline: none !important;
-}
-.btn-c-outline:hover
-{
-  background-color:  #228190 !important;
-  color:white;
 
+.btn-c:hover {
+	background-color: #228190 !important;
+	opacity: 0.8;
 }
+
+.btn-c-outline {
+	background-color: #ffff;
+	color: #228190;
+	border: 1px solid #228190 !important;
+	outline: none !important;
+}
+
+.btn-c-outline:hover {
+	background-color: #228190 !important;
+	color: white;
+}
+
 .form-control:focus {
-    color: #D94929 !important;
-    background-color: #fff !important;
-    border-color: #D94929 !important;
-    outline: 0 !important;
-    box-shadow: 0 0 0 0.2rem rgb(181 30 30 / 25%) !important;
+	color: #D94929 !important;
+	background-color: #fff !important;
+	border-color: #D94929 !important;
+	outline: 0 !important;
+	box-shadow: 0 0 0 0.2rem rgb(181 30 30 / 25%) !important;
 }
+
 
 /* smooth scrool */
-html
-{
-  scroll-behavior: smooth;
+
+html {
+	scroll-behavior: smooth;
 }
+
+
 /* custom scrool bar */
 
+
 /* width */
-::-webkit-scrollbar
-{
-  width: 6px;
+
+::-webkit-scrollbar {
+	width: 6px;
 }
+
 
 /* Track */
-::-webkit-scrollbar-track
-{
-  background: #f1f1f1;
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
 }
+
 
 /* Handle */
-::-webkit-scrollbar-thumb
- {
-  background: #E98074;
+
+::-webkit-scrollbar-thumb {
+	background: #E98074;
 }
 
+
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover
-{
-  background: #228190;
+
+::-webkit-scrollbar-thumb:hover {
+	background: #228190;
 }

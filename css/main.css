@@ -2,169 +2,156 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Kaushan+Script&display=swap');
+
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,800&display=swap'); */
 
-body{
-  /* font-family: 'Open Sans', sans-serif; */
-  font-family: 'Roboto', sans-serif;
-
-}
-a{
-  color: #000 !important;
-}
-a:visited{
-  color:#fff;
+body {
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: 'Roboto', sans-serif;
 }
 
-.nav-item
-{
- padding: 0 10px;
- color:#000 !important;
- font-weight: 600 !important;
- font-family: 'Roboto', sans-serif;
- font-size: 18px !important;
-
-}
-nav .active
-{
-
-  /* color: #D94929 !important; */
-}
-.nav-item a:hover
-{
-  color: #D94929 !important;
-  opacity: 0.8;
+a {
+	color: #000 !important;
 }
 
-.navbar-toggler
-{
-  outline: none !important;
+a:visited {
+	color: #fff;
 }
 
-#nav-bar
-{
-  position: sticky;
-  top:0;
-  z-index: 100;
+.nav-item {
+	padding: 0 10px;
+	color: #000 !important;
+	font-weight: 600 !important;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px !important;
 }
 
-.fa-bars
-{
-  border:none!important;
-  outline: none!important;
-  color: #fff;
+nav .active {
+	/* color: #D94929 !important; */
 }
 
-.bar
-{
-text-decoration-line: underline;
-text-decoration-color: #228190;
-text-decoration-style: solid;
-text-underline-offset: 10px;
+.nav-item a:hover {
+	color: #D94929 !important;
+	opacity: 0.8;
 }
 
-.bg-c
-{
-  background-color: #F2CA80;
+.navbar-toggler {
+	outline: none !important;
 }
 
-.font-c
-{
-  font-family: 'Kaushan Script', cursive;
-  font-size: 40px !important;
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 100;
 }
 
-.fc
-{
-  color: #000;
+.fa-bars {
+	border: none!important;
+	outline: none!important;
+	color: #fff;
+}
+
+.bar {
+	text-decoration-line: underline;
+	text-decoration-color: #228190;
+	text-decoration-style: solid;
+	text-underline-offset: 10px;
+}
+
+.bg-c {
+	background-color: #F2CA80;
+}
+
+.font-c {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px !important;
+}
+
+.fc {
+	color: #000;
+}
+
+.space {
+	height: 100vh;
+}
+
+.bg-custom {
+	background-color: #F2CA80;
+}
+
+.radious {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.size-26 {
+	font-size: 26px !important;
+}
+
+.size-24 {
+	font-size: 24px !important;
+}
+
+.size-22 {
+	font-size: 22px !important;
+}
+
+.size-18 {
+	font-size: 18px !important;
+}
+
+.font-bolder {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.font-lighter {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.btn-outline-light {
+	background-color: #D94929 !important;
+	outline: none !important;
+	border: none !important;
+	color: #fff !important;
+}
+
+.black {
+	color: #000;
+}
+
+.orange {
+	color: #D94929;
+}
+
+.icon-c {
+	color: #D94929 !important;
+}
+
+.about_p_height {
+	line-height: 31px;
+}
+
+footer a:hover {
+	color: #000 !important;
 }
 
 
-.space
-{
-  height: 100vh;
-}
-.bg-custom
-{
-  background-color:#F2CA80 ;
-}
-
-.radious
-{
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.size-26
-{
-  font-size: 26px !important;
-
-}
-.size-24
-{
-  font-size: 24px !important;
-}
-.size-22
-{
-  font-size: 22px !important;
-}
-.size-18
-{
-  font-size: 18px !important;
-}
-.font-bolder
-{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-}
-.font-lighter
-{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-}
-.btn-outline-light
-{
-  background-color: #D94929 !important;
-  outline: none !important;
-  border: none !important;
-  color: #fff !important;
-}
-.black{
-  color:#000;
-}
-.orange{
-  color:#D94929;
-}
-
-.icon-c
-{
-  color:#D94929 !important;
-}
-
-.about_p_height
-{
-  line-height: 31px;
-}
-footer a:hover
-{
-  color: #000 !important;
-}
 /* image gallery css */
 
-  #gallery  .container
-  {
-    padding: 3% 0;
-  }
-  #gallery .card img
-  {
-    width:100%;
-    transition: 0.3s;
-    border-radius: 8px;
-  }
+#gallery .container {
+	padding: 3% 0;
+}
 
-  #gallery .card:hover img
-  {
-    transform: scale(0.9);
-    transition: 1.2s;
-    transition-delay: 0.2s;
-  }
+#gallery .card img {
+	width: 100%;
+	transition: 0.3s;
+	border-radius: 8px;
+}
+
+#gallery .card:hover img {
+	transform: scale(0.9);
+	transition: 1.2s;
+	transition-delay: 0.2s;
+}
