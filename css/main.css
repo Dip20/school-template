@@ -100,6 +100,10 @@ nav .active {
 	font-size: 18px !important;
 }
 
+.size-16 {
+	font-size: 16px !important;
+}
+
 .font-bolder {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -163,4 +167,16 @@ footer a:hover {
 
 #notification ol li {
 	line-height: 38px;
+}
+
+.responsive_image{
+	max-width: 150px;
+	max-height: 150px;
+}
+.responsive_subject_image{
+
+	max-width: 250px;
+
+
+
 }
