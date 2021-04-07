@@ -95,6 +95,11 @@ text-underline-offset: 10px;
   border-top-right-radius: 20px;
 }
 
+.size-26
+{
+  font-size: 26px !important;
+
+}
 .size-24
 {
   font-size: 24px !important;
