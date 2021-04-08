@@ -176,7 +176,12 @@ footer a:hover {
 .responsive_subject_image{
 
 	max-width: 250px;
+}
 
-
-
+/* quote responsive font size */
+@media only screen and (max-width: 768px) {
+	.font-c{
+		font-size: 28px !important;
+	  line-height: 40px !important;
+	}
 }
