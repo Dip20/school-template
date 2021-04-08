@@ -1,5 +1,7 @@
 // slider js
    $('.owl-carousel').owlCarousel({
+   center:true,
+   item:3,
    loop:true,
    margin:10,
    nav:false,

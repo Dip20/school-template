@@ -185,3 +185,10 @@ footer a:hover {
 	  line-height: 40px !important;
 	}
 }
+
+/* responsive for top educator and testimonials card */
+@media only screen and (max-width: 575px) {
+	.responsie_card{
+		width: 70%;
+	}
+}
