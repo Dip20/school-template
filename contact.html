@@ -19,41 +19,54 @@
       <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.default.min.css">
    </head>
    <body>
-      <!-- nav starts here -->
-      <nav class="navbar navbar-expand-lg  bg-custom" id="nav-bar">
-         <!-- <a class="brand text-decoration-none" href="index"> <i class="fas fa-graduation-cap rotate"></i>ABCD School</a> -->
-         <img src="img/logo.png" class="image-fluid" alt="" width="120px">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <i class="fa fa-bars orange"></i>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-               <li class="nav-item active">
-                  <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="about">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="contact">Contact</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="notice">Notice Board</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="gallery">Gallery</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="fees-structure">Fee Structure</a>
-               </li>
-            </ul>
-            <div class="form-inline my-2 my-lg-0">
-               <a class="btn my-2 my-sm-0 btn-outline-light btn-md" href="login">Login</a>
-               <!-- <a class="btn  my-2 my-sm-0  ml-2 btn-outline-light btn-sm" href="register">Register</a> -->
-            </div>
-         </div>
-      </nav>
-      <!-- nav ends here -->
+     <!-- nav starts here -->
+     <nav class="navbar navbar-expand-lg  bg-custom" id="nav-bar">
+        <!-- <a class="brand text-decoration-none" href="index"> <i class="fas fa-graduation-cap rotate"></i>ABCD School</a> -->
+        <img src="img/logo.png" class="image-fluid" alt="" width="120px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars orange"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                 <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="about">About</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="contact">Contact</a>
+              </li>
+              <li class="nav-item nav-active">
+                 <a class="nav-link" href="notice">Notice Board</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="fees-structure">Fee Structure</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="register">Register</a>
+              </li>
+              <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Others
+       </a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+         <a class="dropdown-item" href="events">Events</a>
+         <a class="dropdown-item" href="blog">Blog</a>
+
+       </div>
+     </li>
+           </ul>
+           <div class="form-inline my-2 my-lg-0">
+              <a class="btn my-2 my-sm-0 btn-outline-light btn-md" href="login">Login</a>
+              <!-- <a class="btn  my-2 my-sm-0  ml-2 btn-outline-light btn-sm" href="register">Register</a> -->
+           </div>
+        </div>
+     </nav>
+     <!-- nav ends here -->
       <br><br>
       <!-- contact section starts here -->
       <section id="contact" style="background-color:;">
@@ -124,6 +137,7 @@
       </section>
       <!-- contact section ends here -->
       <!-- footer starts here -->
+       <button class="goto-top" id="myBtn" onclick="topFunction()"> <i class="fas fa-arrow-up"></i></button>
       <footer >
          <div class="card bg-custom shadow card-danger text-white">
          <div class="card-body py-5">
@@ -151,6 +165,8 @@
                      <a class="nav-link orange" href="career"><i class="fas fa-angle-double-right"></i> Career</a>
                      <a class="nav-link orange" href="notice"><i class="fas fa-angle-double-right"></i> Notice Board</a>
                      <a class="nav-link orange" href="gallery"><i class="fas fa-angle-double-right"></i> Gallery</a>
+                     <a class="nav-link orange" href="events"><i class="fas fa-angle-double-right"></i> Events</a>
+                     <a class="nav-link orange" href="blog"><i class="fas fa-angle-double-right"></i> Blog</a>
                   </nav>
                </div>
                <div class="col-lg-3">
@@ -174,10 +190,8 @@
                      <h4 class="pr-3">  <a class="icon-c" href="#"><i class="fab fa-twitter-square"></i></a></h4>
                      <h4 class="pr-3">  <a class="icon-c" href="#"><i class="fab fa-instagram-square"></i></a></h4>
                   </nav>
-                  <br><br><br>
-                  <div class="top text-right">
-                     <h1><a href="#top" class="icon-c"><i class="fas fa-arrow-circle-up"></i></a> </h1>
-                  </div>
+                  <br>
+
                </div>
             </div>
          </div>
@@ -192,5 +206,27 @@
       <!-- owl js file -->
       <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
       <script src="js/slider.js"></script>
+      <!-- goto top button -->
+        <script>
+           //Get the button
+           var mybutton = document.getElementById("myBtn");
+
+           // When the user scrolls down 20px from the top of the document, show the button
+           window.onscroll = function() {scrollFunction()};
+
+           function scrollFunction() {
+             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+               mybutton.style.display = "block";
+             } else {
+               mybutton.style.display = "none";
+             }
+           }
+
+           // When the user clicks on the button, scroll to the top of the document
+           function topFunction() {
+             document.body.scrollTop = 0;
+             document.documentElement.scrollTop = 0;
+           }
+           </script>
    </body>
 </html>
