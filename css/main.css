@@ -226,3 +226,6 @@ footer a:hover {
 .line-height{
 	line-height: 35px!important;
 }
+.event-card{
+	width: 270px!important;
+}
