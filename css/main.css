@@ -144,17 +144,17 @@ footer a:hover {
 
 /* image gallery css */
 
-#gallery .container {
+.gallery .container {
 	padding: 3% 0;
 }
 
-#gallery .card img {
+.gallery .card img {
 	width: 100%;
 	transition: 0.3s;
 	border-radius: 8px;
 }
 
-#gallery .card:hover img {
+.gallery .card:hover img {
 	transform: scale(0.9);
 	transition: 1.2s;
 	transition-delay: 0.2s;
@@ -218,3 +218,11 @@ footer a:hover {
     padding: 10px;
     border-radius: 4px;
 	}
+
+/* blog page  */
+.borde-dotted{
+	border-bottom: 1px dotted #D94929!important;
+}
+.line-height{
+	line-height: 35px!important;
+}
